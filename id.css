@@ -1,0 +1,83 @@
+body{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	text-align:center;0
+	
+	
+}
+.one{
+	text-align:center;
+	background-color:blue;
+	}
+.flex-container {
+  display: flex;
+  background-color: orange;
+  justify-content:center;
+}
+
+.flex-container > div {
+	position:relative;
+ background-color: white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  border:3px solid black;
+  width:200px;
+  height:auto;
+  
+  
+}
+.two{
+	border-radius:70%;
+	align-items:center;
+	margin-left:20px;
+}
+.three{
+	border-radius:70%;
+	align-items:center;
+	margin-left:20px;
+}
+.four{
+	border-radius:70%;
+	align-items:center;
+	margin-left:20px;
+}
+.1{
+	text-align:center;
+	
+}
+
+.mail{
+	width:10%;
+	height:10%;
+	font-size:20px;
+	& a {
+		display:flex;
+		justify-content:flex-start;
+		& img{
+			width: 100%;
+			margin-right:10px;
+		}
+	}
+  
+}
+.phone{
+	display:flex;
+	justify-content:center;
+	margin: 30px auto;
+	
+}
+.img1{
+	margin:0;
+	
+}
+.img2{
+	width:20px;
+	height:20px;
+	margin-right:10px;
+}
+.button{
+	background-color:yellow;
+	
+}
